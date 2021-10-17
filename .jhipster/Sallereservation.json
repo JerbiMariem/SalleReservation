@@ -1,0 +1,28 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "salle",
+            "otherEntityName": "salle",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id",
+            "otherEntityRelationshipName": "sallereservation"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "datereservation",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "changelogDate": "20211016205025",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceClass",
+    "entityTableName": "sallereservation",
+    "databaseType": "sql",
+    "readOnly": false,
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

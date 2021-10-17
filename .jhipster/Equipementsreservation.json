@@ -1,0 +1,28 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "additionalequipement",
+            "otherEntityName": "additionalequipement",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id",
+            "otherEntityRelationshipName": "equipementsreservation"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "datereservation",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "changelogDate": "20211016204858",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceClass",
+    "entityTableName": "equipementsreservation",
+    "databaseType": "sql",
+    "readOnly": false,
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

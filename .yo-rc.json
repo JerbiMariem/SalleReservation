@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.datalake.reservationsalle"
+    },
+    "jhipsterVersion": "6.8.0",
+    "applicationType": "monolith",
+    "baseName": "SalleReservation",
+    "packageName": "com.datalake.reservationsalle",
+    "packageFolder": "com/datalake/reservationsalle",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "caffeine",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ODYzYzVhNjEwZjFmYTFiNjIzNTJiNTQyYzE0OWYzNjEyOGMyMGM2ZWZmMDQ2ZjI1MDZjNjkwM2FjYmU2ZWU5ZmEwNzllNjQxM2JiMmFhNjI0NzRlOGZiOThiZGFkMjM5MTY4ZDQyMmRjZjhmYzFjN2MzNTg4NjdlNDgyNDFhNmE=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "creationTimestamp": 1634404477256,
+    "testFrameworks": ["gatling"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}

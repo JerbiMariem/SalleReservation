@@ -1,0 +1,37 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "equipements",
+            "otherEntityName": "equipements",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "salle"
+        },
+        {
+            "relationshipName": "reservationsalle",
+            "otherEntityName": "reservationsalle",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "salle"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "capacity",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20211016203406",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "no",
+    "entityTableName": "salle",
+    "databaseType": "sql",
+    "readOnly": false,
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

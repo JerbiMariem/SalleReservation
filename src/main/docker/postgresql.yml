@@ -1,0 +1,11 @@
+version: '2'
+services:
+  sallereservation-postgresql:
+    image: postgres:12.1
+    # volumes:
+    #     - ~/volumes/jhipster/SalleReservation/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=SalleReservation
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432
